@@ -1,0 +1,349 @@
+body{
+	margin: 0;
+	font-family:Calibri (Headings);
+}
+.main_body{
+	padding: 0px !important;
+	/* border: 1px solid #eee; */
+	background:#fff;
+}
+
+.main_title{
+	font-size:45px;
+	font-family:Calibri (Headings);
+	font-weight:bold;
+	color:#55A2EA;
+	padding-right:10px;
+}
+.slogan{
+	font-size:35px;
+	font-family:Bradley Hand ITC;
+	color:#55A2EA;
+	padding-right:10px;
+}
+.menubar{
+	margin:10px 0;
+	padding:10px 0;
+}
+.navbar-right {
+	padding-right:20px;
+}
+.navbar {
+	min-height: 0 !important;
+	
+}
+.nav-justified{
+	border-top:#558ED5 1px solid;
+	border-bottom:#558ED5 1px solid;
+}
+.navbar-right > li > a {
+	/* background:#009688 !important;  */
+	color: #FE9900!important;  
+	text-decoration: underline !important; 
+}
+.navbar-right> li > a:focus, .navbar-right> li > a:hover { 
+	text-decoration: none !important; 
+	/* background: #2477AC !important;   */
+	color: #0B3951 !important;   
+	/* font-weight:bold; */
+	/* font-size:13px; */
+	/* padding:12px 14px; */
+ } 
+.nav > li > a {
+	/* color: #55A2EA !important;  */
+	/* font-size:13px; */
+}
+.navbar> li > a:focus, .navbar > li > a:hover {
+	 text-decoration: underline !important;  
+	background-color: #fff !important;  
+	color: #0000FF !important;  
+	font-weight:bold;
+}
+
+/* Home */
+h1.text-center{
+	color:#558ED5;
+}
+.service{
+	border: 1px solid #222;
+	margin-bottom:20px;
+	padding:20px;
+}
+.service img{
+	width:80px;
+	height:80px;
+	margin-left: 40%;
+}
+.service h4, h5{
+	color:#558EE3;
+}
+.service p{
+	color:#55B5F1;
+}
+
+/* Network */
+.network_content, .resource_content, .partnership_content, .contact_content,.gallary_content{
+	margin-bottom:20px;
+	padding:10px 40px;
+}
+
+/* Resource & Support */
+.icon{
+	/* float:left; */
+}
+.resource_icon{
+	float:left;
+	width:40px;
+	height:40px;
+	margin-right:10px;
+}
+table{
+	/* width:100%; */
+}
+table, tbody,tr,td{
+	width:60%; 
+	padding:8px;
+}
+
+/* ---------contact ----- */
+/* .cont_section, .signup_section{ */
+	/* background:#f4f7f8; */
+	/* border-radius:7px; */
+	/* margin-bottom:10px; */
+	/* padding-bottom:10px; */
+/* } */
+.contact_form{
+	/* background:#e1e1e1; */
+	margin-top: -10px;
+}
+.contact_form h4{
+	padding-left:15px;
+}
+.social_media{ 
+	 list-style:none; 
+	padding-left:0px;
+ } 
+.social_media li { 
+	 float:left; 
+	 margin:2px; 
+	background:#145098; 
+ padding: 6px 5px; 
+	 width:33px; 
+	text-align:center;
+} 
+.social_media li a{ 
+	font-size:20px; 
+	color:#fff; 
+} 
+/* /*-------------- archivetitle---------------------*/ 
+/* .archivetitle{background:#ddd; padding:5px 10px;} */
+/* ---------/contact----- */
+
+/* Footer */
+.footer{
+	background: #999;
+	padding: 10px;
+	overflow:hidden;
+}
+.footer-top{
+	color: #fff;
+  background: #00265F;
+}
+.footer-top ul {
+	list-style:none;
+}
+.footer-top ul li a, .span a{
+	color: #fff;
+	margin-left: -41px;
+}
+
+
+.social_footer ul{
+	padding-top:10px;
+	list-style:none;
+}
+.social_footer ul li{
+	float:left;
+	margin:2px; 
+	background:#eee;
+	padding: 3px 14px;
+	 width:50px;
+	height:50px;
+	 text-align:center;
+	border-radius:60%;
+}
+.social_footer ul li a{
+	font-size: 30px;
+	/* color:#23527c; */
+	
+}
+.social_footer a:hover{
+	color:#043776;
+	text-decoration: none;
+}
+
+/*---signin form----*/
+
+.contact-form{
+	background:#efefef;
+	padding: 2%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-radius: 12px;
+
+}
+.contact-form h1{
+	font-size: 1.5em;
+	color:#474646;
+}
+
+
+	/* form element visual styles */
+	.contact_form input{ 
+		border: 1px solid #DDDDDD;
+		color: #B6B6B6;
+		/* margin-top: 8%; */
+		height: 40px;
+		border-radius: 2px; 
+		transition: all 0.5s ease-out; 
+	}
+	.contact_form input:hover{ 
+		border: 1px solid #79B42B;
+		color:#79B42B;
+	}
+
+	.contact_form input[type="submit"] {
+		cursor: pointer; 
+		color: #fff;
+		background: #79B42B;
+		padding: 10px;
+		font-size: 1.1em;
+		transition: all 0.5s ease-out;
+	}	
+.contact_form input[type="submit"]:hover {
+	background:#88C470;
+}	
+
+.checkbox {
+	color: #999;
+	cursor: pointer;
+	font-size:12px;
+}
+.checkbox input {
+	position: absolute;
+	margin-top:-10px;
+}
+.forgot{
+	margin-top: 8px; 
+	padding:0 !important;
+}
+
+.forgot a:hover{
+	color:#79B42B;
+}*/
+/* === Form hints === */
+.account h1{ 
+	font-size:1.4em; 
+	
+} 
+
+.span0, .span1, .span2, .span3 {
+	 margin: 1%; 
+	width:48% !important;
+}
+
+.span0 i, .span1 i, .span2 i, .span3 i {
+	color: #fff;
+	padding: 25px 2px;
+	font-size: 1.17em !important;
+}
+.span0 {
+	margin-top:30px;
+	background: #3B5998;
+}
+.span0:hover {
+	background:#354F88;
+	
+}
+.span1 {
+	margin-top:30px;
+	background: #45B0E3;
+}
+
+.span1:hover {
+	background:#40A2D1;
+	
+}
+.span2 {
+	background: #DE4C34;
+}
+
+.span2:hover {
+	background: #CE3E26;
+	
+}
+.span3 {
+	background: #354F88;
+}
+.span3:hover {
+	background: #2856A2;
+}
+.span0:hover a, .span1:hover a, .span2:hover a, .span3:hover a{
+	text-decoration:none;
+}
+/*end-account*/
+/* .............../signin form ..........................*/
+/*--------------- signup form------ */
+.signup_section{
+	background:#f4f7f8;
+	border-radius:7px;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+.signup_form input{ 
+		border: 1px solid #DDDDDD;
+		font-size: 1.0em;
+		color: #B6B6B6;
+		font-weight: 600;
+		height: 40px;
+		transition: all 0.5s ease-out; 
+		
+	}
+	.signup_form input:hover{ 
+		border: 1px solid #79B42B;
+		color:#79B42B;
+	}
+
+.signup_btn {
+		color: #fff;
+		background: #79B42B;
+		width:98%;
+		margin-left:4px;
+		margin-top:4%;
+		font-size: 1.2em; 
+		transition: all 0.5s ease-out;
+	
+}
+
+legend { 
+   font-size: 1.4em; 
+  margin-bottom: 10px; 
+} 
+.thumb-image{width:600px ; height:300px;}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+/*--------------- /signup form------ */
